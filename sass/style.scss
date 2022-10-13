@@ -178,3 +178,34 @@ nav {}
 }
 
 /* OUR PORTFOLIO */
+
+.portfolio {
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+.cart-discription {
+    background-color: white;
+    height: 100px;
+    
+    h1, p {
+        text-align: center;
+        padding: 12px;
+        margin: 0;
+    }
+ 
+}
+
+
+
+.cart-image {
+    margin-top: 50px;
+    padding: 0 auto;    
+
+    img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    }
+
+}
