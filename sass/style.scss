@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+
+/* Header */
+.raz img {
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+} 
+
+    .logo {        
+        color: #e7eb2a;
+        transition: all 0.3s ease 0s;
+        display: inline-block;
+        padding: 0px 30px;
+        margin: 30px 0px;
+    }
+    
+    .logo:hover {
+        color: #ffffff;
+        letter-spacing: 2px;
+        
+    }    
+
+
+
+li, a, button {
+
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+nav {
+       
+}
+.nav-links {
+    
+    li {
+        display: inline-block;
+        padding: 0px 30px;
+        margin: 30px 0px;
+        
+    }
+    li a {
+        transition: all 0.3s ease 0s;
+    }
+    li a:hover {
+        color: #e7eb2a;
+        letter-spacing: 1px;
+        
+        
+    }
+}
+
+.banner {
+    background-image: url('../images/logo2.jpg');
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.discription {
+    text-align: center;
+    margin: 150px;
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 65px;
+        padding: 10px;
+    }
+    
+}
+
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  }
+
+.button-81:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
